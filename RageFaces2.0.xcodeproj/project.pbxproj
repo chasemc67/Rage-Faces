@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8FC8BFA15296730006DB5DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FC8BF915296730006DB5DC /* UIKit.framework */; };
+		C8FC8BFC15296730006DB5DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FC8BFB15296730006DB5DC /* Foundation.framework */; };
+		C8FC8BFE15296730006DB5DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FC8BFD15296730006DB5DC /* CoreGraphics.framework */; };
+		C8FC8C0415296730006DB5DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8FC8C0215296730006DB5DC /* InfoPlist.strings */; };
+		C8FC8C0615296730006DB5DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FC8C0515296730006DB5DC /* main.m */; };
+		C8FC8C0A15296730006DB5DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FC8C0915296730006DB5DC /* AppDelegate.m */; };
+		C8FC8C0D15296730006DB5DC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8FC8C0B15296730006DB5DC /* MainStoryboard.storyboard */; };
+		C8FC8C1015296730006DB5DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FC8C0F15296730006DB5DC /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8FC8BF515296730006DB5DC /* RageFaces2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RageFaces2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8FC8BF915296730006DB5DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C8FC8BFB15296730006DB5DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8FC8BFD15296730006DB5DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C8FC8C0115296730006DB5DC /* RageFaces2.0-Info.plist */ = {isa = PBXFileReference; path = "RageFaces2.0-Info.plist"; sourceTree = "<group>"; };
+		C8FC8C0315296730006DB5DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8FC8C0515296730006DB5DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8FC8C0715296730006DB5DC /* RageFaces2.0-Prefix.pch */ = {isa = PBXFileReference; path = "RageFaces2.0-Prefix.pch"; sourceTree = "<group>"; };
+		C8FC8C0815296730006DB5DC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8FC8C0915296730006DB5DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8FC8C0C15296730006DB5DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C8FC8C0E15296730006DB5DC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		C8FC8C0F15296730006DB5DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8FC8BF215296730006DB5DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FC8BFA15296730006DB5DC /* UIKit.framework in Frameworks */,
+				C8FC8BFC15296730006DB5DC /* Foundation.framework in Frameworks */,
+				C8FC8BFE15296730006DB5DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8FC8BEA15296730006DB5DC = {
+			isa = PBXGroup;
+			children = (
+				C8FC8BFF15296730006DB5DC /* RageFaces2.0 */,
+				C8FC8BF815296730006DB5DC /* Frameworks */,
+				C8FC8BF615296730006DB5DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8FC8BF615296730006DB5DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8FC8BF515296730006DB5DC /* RageFaces2.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8FC8BF815296730006DB5DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8FC8BF915296730006DB5DC /* UIKit.framework */,
+				C8FC8BFB15296730006DB5DC /* Foundation.framework */,
+				C8FC8BFD15296730006DB5DC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8FC8BFF15296730006DB5DC /* RageFaces2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				C8FC8C0815296730006DB5DC /* AppDelegate.h */,
+				C8FC8C0915296730006DB5DC /* AppDelegate.m */,
+				C8FC8C0B15296730006DB5DC /* MainStoryboard.storyboard */,
+				C8FC8C0E15296730006DB5DC /* ViewController.h */,
+				C8FC8C0F15296730006DB5DC /* ViewController.m */,
+				C8FC8C0015296730006DB5DC /* Supporting Files */,
+			);
+			path = RageFaces2.0;
+			sourceTree = "<group>";
+		};
+		C8FC8C0015296730006DB5DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8FC8C0115296730006DB5DC /* RageFaces2.0-Info.plist */,
+				C8FC8C0215296730006DB5DC /* InfoPlist.strings */,
+				C8FC8C0515296730006DB5DC /* main.m */,
+				C8FC8C0715296730006DB5DC /* RageFaces2.0-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8FC8BF415296730006DB5DC /* RageFaces2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8FC8C1315296730006DB5DC /* Build configuration list for PBXNativeTarget "RageFaces2.0" */;
+			buildPhases = (
+				C8FC8BF115296730006DB5DC /* Sources */,
+				C8FC8BF215296730006DB5DC /* Frameworks */,
+				C8FC8BF315296730006DB5DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RageFaces2.0;
+			productName = RageFaces2.0;
+			productReference = C8FC8BF515296730006DB5DC /* RageFaces2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8FC8BEC15296730006DB5DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C8FC8BEF15296730006DB5DC /* Build configuration list for PBXProject "RageFaces2.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8FC8BEA15296730006DB5DC;
+			productRefGroup = C8FC8BF615296730006DB5DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8FC8BF415296730006DB5DC /* RageFaces2.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8FC8BF315296730006DB5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FC8C0415296730006DB5DC /* InfoPlist.strings in Resources */,
+				C8FC8C0D15296730006DB5DC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8FC8BF115296730006DB5DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FC8C0615296730006DB5DC /* main.m in Sources */,
+				C8FC8C0A15296730006DB5DC /* AppDelegate.m in Sources */,
+				C8FC8C1015296730006DB5DC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8FC8C0215296730006DB5DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8FC8C0315296730006DB5DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C8FC8C0B15296730006DB5DC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8FC8C0C15296730006DB5DC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8FC8C1115296730006DB5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8FC8C1215296730006DB5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8FC8C1415296730006DB5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RageFaces2.0/RageFaces2.0-Prefix.pch";
+				INFOPLIST_FILE = "RageFaces2.0/RageFaces2.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C8FC8C1515296730006DB5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RageFaces2.0/RageFaces2.0-Prefix.pch";
+				INFOPLIST_FILE = "RageFaces2.0/RageFaces2.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8FC8BEF15296730006DB5DC /* Build configuration list for PBXProject "RageFaces2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8FC8C1115296730006DB5DC /* Debug */,
+				C8FC8C1215296730006DB5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8FC8C1315296730006DB5DC /* Build configuration list for PBXNativeTarget "RageFaces2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8FC8C1415296730006DB5DC /* Debug */,
+				C8FC8C1515296730006DB5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8FC8BEC15296730006DB5DC /* Project object */;
+}
